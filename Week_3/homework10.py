@@ -5,5 +5,5 @@ y
 print(x)
 print(y)
 index = np.argmin(np.abs(np.array(x)-y))
-print(" index of x where the value at that index is closest to y ",index)
+print(" index of x where the value at that index is closest to y: ",index)
 print(" value at that index is closest to yin x: ",x[index])
